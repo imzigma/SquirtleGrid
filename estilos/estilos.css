@@ -492,7 +492,7 @@ body{
     grid-row: 16;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 424px) {
     .container-charmander{
         display: grid;
         grid-template: repeat(1fr) / repeat(1fr);
@@ -506,7 +506,21 @@ body{
         font-size: 18px;
     }
     }
-@media screen and (min-width: 768px) {
+
+@media screen and (min-width: 425px) {
+    .container-squirtle{
+        display: grid;
+        grid-template: repeat(1fr) / repeat(1fr);
+        height: 280px;
+        width: 350px;
+    }
+    .text-container{
+        position: absolute;
+        top: 15%;
+        font-size: 20px;
+    }
+        }
+@media screen and (min-width: 767px) {
     .container-squirtle{
         display: grid;
         grid-template: repeat(1fr) / repeat(1fr);
@@ -516,7 +530,7 @@ body{
     .text-container{
         position: absolute;
         top: 15%;
-        font-size: 30px;
+        font-size: 28px;
     }
     }
 
